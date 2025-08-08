@@ -151,6 +151,10 @@ footer {
 
 /* Responsividade */
 @media (max-width:880px) {
+    .wrap {
+        margin: 20px auto;
+    }
+
     .two-col {
         grid-template-columns: 1fr
     }
@@ -158,6 +162,10 @@ footer {
     .avatar {
         width: 72px;
         height: 72px
+    }
+
+    .title {
+        font-size: 14px
     }
 }
 
