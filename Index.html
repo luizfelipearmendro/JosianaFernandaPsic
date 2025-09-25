@@ -1,151 +1,183 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="css/Style.css" />
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
     <title>Dr(a). Josiana Fernanda - Psicológa</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="wrap">
-        <header>
-            <div class="brand">
-                <div class="avatar"><img src="img/foto.jpeg" alt="Foto profissional" /></div>
+      <header>
+        <div class="brand">
+          <div class="avatar">
+            <img src="img/foto.jpeg" alt="Foto profissional" />
+          </div>
+          <div>
+            <h1>
+              Dra. Josiana Fernanda Poquiviqui
+              <p class="subtitle">Psicóloga (CRP 18/8067)</p>
+            </h1>
+            <p class="title">
+              Terapia Cognitivo Comportamental • Adolescentes, Jovens, Adultos e
+              Idosos
+            </p>
+          </div>
+        </div>
+      </header>
+
+      <div class="card">
+        <div class="two-col">
+          <main>
+            <section class="about">
+              <h2 style="margin-top: 0">Sobre</h2>
+              <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+
+              <div class="sep"></div>
+
+              <h3>Especialidades</h3>
+              <div class="chips">
+                <div class="chip">Ansiedade</div>
+                <div class="chip">Depressão</div>
+                <div class="chip">Relacionamentos</div>
+                <div class="chip">Autoconhecimento</div>
+                <div class="chip">Adolescentes</div>
+              </div>
+
+              <div style="height: 12px"></div>
+
+              <h3>Serviços</h3>
+              <ul class="services-list">
+                <li>Sessão online 50 min</li>
+                <li>Terapia de casal 60 min</li>
+                <li>Acolhimento inicial 30 min</li>
+              </ul>
+
+              <div style="height: 12px"></div>
+
+              <h3>Depoimentos</h3>
+              <p class="testimonial">
+                "A clínica me ajudou a ressignificar padrões e recuperar
+                energia" — paciente (anônimo.)
+              </p>
+
+              <div style="height: 12px"></div>
+
+              <h3>Agendamento / Material</h3>
+              <p class="title">
+                Para agendar, entre em contato por WhatsApp ou e-mail. Aceito
+                convênios X e Y (ou particular).
+              </p>
+            </section>
+          </main>
+
+          <aside>
+            <div class="contact-card">
+              <div
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                "
+              >
+                <strong>Contato</strong>
+                <small style="color: var(--muted)">Seg/sex 9h–18h</small>
+              </div>
+
+              <div class="sep"></div>
+
+              <div class="contact-row">
+                <i class="ri-whatsapp-fill"></i>
                 <div>
-                    <h1>Dra. Josiana Fernanda Poquiviqui <small
-                            style="display:block;color:var(--muted);font-weight:600">Psicóloga (CRP 18/8067)</small>
-                    </h1>
-                    <p class="title">Terapia Cognitivo Comportamental • Adolescentes, Jovens, Adultos e Idosos</p>
+                  <div style="font-weight: 700">WhatsApp</div>
+                  <small>+55 (65) 9 9915-9691</small>
                 </div>
-            </div>
-        </header>
-
-        <div class="card">
-            <div class="two-col">
-                <main>
-                    <section class="about">
-                        <h2 style="margin-top:0">Sobre</h2>
-                        <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
-
-                        <div class="sep"></div>
-
-                        <h3>Especialidades</h3>
-                        <div class="chips">
-                            <div class="chip">Ansiedade</div>
-                            <div class="chip">Depressão</div>
-                            <div class="chip">Relacionamentos</div>
-                            <div class="chip">Autoconhecimento</div>
-                            <div class="chip">Adolescentes</div>
-                        </div>
-
-                        <div style="height:12px"></div>
-
-                        <h3>Serviços</h3>
-                        <div
-                            style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin-top:8px">
-                            <div class="service">Sessão online 50 min</div>
-                            <div class="service">Terapia de casal 60 min</div>
-                            <div class="service">Acolhimento inicial 30 min</div>
-                        </div>
-
-                        <div style="height:12px"></div>
-
-                        <h3>Depoimentos</h3>
-                        <p style="font-style:italic;color:var(--muted)">"A clínica me ajudou a ressignificar padrões e
-                            recuperar energia" — paciente (anônimo.)</p>
-
-                        <div style="height:12px"></div>
-
-                        <h3>Agendamento / Material</h3>
-                        <p class="title">Para agendar, entre em contato por WhatsApp ou e-mail. Aceito
-                            convênios X e Y (ou particular).</p>
-
-                    </section>
-                </main>
-
-                <aside>
-                    <div class="contact-card">
-                        <div style="display:flex;justify-content:space-between;align-items:center">
-                            <strong>Contato</strong>
-                            <small style="color:var(--muted)">Seg/sex 9h–18h</small>
-                        </div>
-
-                        <div class="sep"></div>
-
-                        <div class="contact-row">
-                            <div style="width:12px;height:12px;border-radius:3px;background:var(--primary)"></div>
-                            <div>
-                                <div style="font-weight:700">WhatsApp</div><small>+55 (65) 9 9915-9691</small>
-                            </div>
-                        </div>
-                        <div class="contact-row">
-                            <div style="width:12px;height:12px;border-radius:3px;background:var(--primary)"></div>
-                            <div>
-                                <div style="margin-left:6px">
-                                    <div style="font-weight:700">E-mail</div><small>contato@exemplo.com</small>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div style="height:6px"></div>
-
-                        <div class="actions">
-                            <a class="btn btn-primary" href="https://wa.me/5565999159691" target="_blank">💬 Abrir
-                                WhatsApp</a>
-                            <a class="btn btn-ghost" href="mailto:contato@exemplo.com">✉️ Enviar e-mail</a>
-                            <!-- <a class="btn btn-ghost" href="https://calendly.com/" target="_blank">📅 Agendar
-                                (Calendly)</a> -->
-                        </div>
-
-                        <div style="height:12px"></div>
-
-                        <!-- <div>
-                            <small style="color:var(--muted);font-weight:700">Local (presencial)</small>
-                            <div class="map-placeholder"><iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3843.5590536308378!2d-54.292326815110385!3d-15.56175147869689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x937725b947eafb2f%3A0xc37ebe5ecaae0ea6!2sR.%20Nicolau%20Klimirk%2C%2073%20-%20Jardim%20Progresso%2C%20Primavera%20do%20Leste%20-%20MT%2C%2078850-000!5e0!3m2!1spt-BR!2sbr!4v1750969811929!5m2!1spt-BR!2sbr"
-                                    height="140" width="320" style="border:0;" allowfullscreen="" loading="lazy"
-                                    referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-                        </div> -->
-
-                        <div style="height:12px"></div>
-
-                        <div>
-                            <small style="color:var(--muted);font-weight:700">Formas de atendimento</small>
-                            <div style="display:flex;gap:8px;margin-top:8px">
-                                <div class="chip">Online</div>
-                                <!-- <div class="chip">Presencial</div> -->
-                            </div>
-                        </div>
-
-                    </div>
-                </aside>
-            </div>
-
-            <div
-                style="margin-top:16px;display:flex;gap:12px;flex-wrap:wrap;justify-content:space-between;align-items:center">
-                <div style="display:flex;gap:12px;align-items:center">
-                    <small style="color:var(--muted); font-weight: bold;">Redes</small>
-                    <a href="https://www.instagram.com/nandapsi_cologia?igsh=cW1pdzNhMXI1enpu"
-                        style="text-decoration:none;color:var(--accent)" target="_blank">Instagram</a>
-                    <!-- <a href="#" style="text-decoration:none;color:var(--accent)">LinkedIn</a> -->
+              </div>
+              <div class="contact-row">
+                <i class="ri-mail-fill"></i>
+                <div>
+                  <div style="font-weight: 700">E-mail</div>
+                  <small>contato@exemplo.com</small>
                 </div>
-            </div>
+              </div>
 
+              <div style="height: 6px"></div>
+
+              <div class="actions">
+                <a class="btn btn-primary" href="https://wa.me/5565999159691" target="_blank"
+                  ><i class="ri-whatsapp-fill"></i>Abrir WhatsApp</a
+                >
+                <a class="btn btn-ghost" href="mailto:contato@exemplo.com"
+                  ><i class="ri-mail-fill"></i> Enviar e-mail</a
+                >
+              </div>
+
+              <div style="height: 12px"></div>
+
+              <div>
+                <small style="color: var(--muted); font-weight: 700"
+                  >Formas de atendimento</small
+                >
+                <div style="display: flex; gap: 8px; margin-top: 8px">
+                  <div class="chip">Online</div>
+                  </div>
+              </div>
+            </div>
+          </aside>
         </div>
 
-        <footer>
-            © <span id="year"></span> Dra. Josiana Fernanda Poquiviqui — Psicologia •<span
-                style="color: rgb(153, 132, 177); font-size: 12px;">
-                Desenvolvimento: <a href="https://www.linkedin.com/in/luiz-felipe-dias-armendro-07240a260/"
-                    target="_blank" style="color: rgb(153, 132, 177); font-size: 12px;text-decoration: none;">Luiz
-                    Felipe</a></span>
-        </footer>
-    </div>
-</body>
+        <div
+          style="
+            margin-top: 16px;
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+          "
+        >
+          <div style="display: flex; gap: 12px; align-items: center">
+            <small style="color: var(--muted); font-weight: bold"
+              >Redes</small
+            >
+            <a
+              href="https://www.instagram.com/nandapsi_cologia?igsh=cW1pdzNhMXI1enpu"
+              style="text-decoration: none; color: var(--accent)"
+              target="_blank"
+              >Instagram</a
+            >
+          </div>
+        </div>
+      </div>
 
+      <footer>
+        <p>
+          © <span id="year"></span> Dra. Josiana Fernanda Poquiviqui — Psicologia
+          •
+          <span style="color: rgb(153, 132, 177); font-size: 12px">
+            Desenvolvimento:
+            <a
+              href="https://www.linkedin.com/in/luiz-felipe-dias-armendro-07240a260/"
+              target="_blank"
+              style="
+                color: rgb(153, 132, 177);
+                font-size: 12px;
+                text-decoration: none;
+              "
+              >Luiz Felipe</a
+            >
+          </span>
+        </p>
+      </footer>
+    </div>
+  </body>
 </html>
